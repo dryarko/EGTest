@@ -1,0 +1,1 @@
+Downloaded from https://gameartpartners.com/downloads/jughead-military-character-art/ as a Free Art piece.

@@ -1,0 +1,1349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="92b0a0be-7cd2-4155-a800-16141d4fe8b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Application.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Crypto/Impl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Domain/IDomainObject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Domain/IDomainObject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Domain/Impl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Observer.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Observer/IObservable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Observer/IObservable.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Observer/Impl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Serialization/Impl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Singleton.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/Factory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/Factory.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithIconAndButtonAndModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithIconAndButtonAndModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/Core/Unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Configs/IItemConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Configs/IItemConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/IAbility.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/Impl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/Impl/Ability.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/Impl/Ability.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/IItem.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/IItem.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/Impl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/Impl/Item.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/Impl/Item.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Player.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Player/IPlayer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Player/IPlayer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/Domain/Player/Impl.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Abilities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Abilities/AbilityView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Abilities/AbilityView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterSceneController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterSceneController.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Items.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Items/ItemView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuModel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Info.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Info/InfoPopUpController.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Info/InfoPopUpController.cs.meta" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterSceneController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="351">
+              <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+              <folding>
+                <marker date="1661219081812" expanded="true" signature="0:68" ph="/* CharacterSceneController.cs ... */" />
+                <marker date="1661219081812" expanded="true" signature="76:357" ph="..." />
+                <marker date="1661219081812" expanded="true" signature="385:3279" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="487:3277" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="652:752" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="797:817" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="860:1659" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="1729:1920" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="1992:2197" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="2240:2325" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="2373:2852" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="2553:2842" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="2917:3025" ph="{...}" />
+                <marker date="1661219081812" expanded="true" signature="3117:3271" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/LocalisationConfig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+              <folding>
+                <marker date="1661219894995" expanded="true" signature="0:125" ph="/* LocalizationConfig.cs ... */" />
+                <marker date="1661219894995" expanded="true" signature="133:205" ph="..." />
+                <marker date="1661219894995" expanded="true" signature="228:1608" ph="{...}" />
+                <marker date="1661219894995" expanded="true" signature="350:1606" ph="{...}" />
+                <marker date="1661219894995" expanded="false" signature="408:464" ph="Loading" />
+                <marker date="1661219894995" expanded="false" signature="466:585" ph="Menu" />
+                <marker date="1661219894995" expanded="true" signature="587:771" ph="Character" />
+                <marker date="1661219894995" expanded="false" signature="773:858" ph="PopUps" />
+                <marker date="1661219894995" expanded="true" signature="889:897" ph="{...}" />
+                <marker date="1661219894995" expanded="true" signature="936:964" ph="{...}" />
+                <marker date="1661219894995" expanded="true" signature="1016:1603" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/IItemConfig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="39" column="100" selection-start-line="39" selection-start-column="100" selection-end-line="39" selection-end-column="100" />
+              <folding>
+                <marker date="1661219997350" expanded="true" signature="6:165" ph="..." />
+                <marker date="1661219997350" expanded="true" signature="188:1662" ph="{...}" />
+                <marker date="1661219997350" expanded="true" signature="292:1660" ph="{...}" />
+                <marker date="1661219997350" expanded="true" signature="440:510" ph="{...}" />
+                <marker date="1661219997350" expanded="true" signature="590:639" ph="{...}" />
+                <marker date="1661219997350" expanded="true" signature="716:1654" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Extensions/StreamExtensions.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+              <folding>
+                <marker date="1661181475752" expanded="true" signature="0:60" ph="/* StreamExtensions.cs ... */" />
+                <marker date="1661181475752" expanded="true" signature="68:92" ph="..." />
+                <marker date="1661181475752" expanded="true" signature="119:787" ph="{...}" />
+                <marker date="1661181475752" expanded="true" signature="162:785" ph="{...}" />
+                <marker date="1661181475752" expanded="true" signature="177:462" ph="/// Convert a String into a Stream. Don't forget to Dispose() once not needed. ... " />
+                <marker date="1661181475752" expanded="true" signature="546:779" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UISceneController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+              <folding>
+                <marker date="1661220348290" expanded="true" signature="0:61" ph="/* UISceneController.cs ... */" />
+                <marker date="1661220348290" expanded="true" signature="80:306" ph="{...}" />
+                <marker date="1661220348290" expanded="true" signature="87:182" ph="/// Type, that represents the main controller on the scene ... " />
+                <marker date="1661220348290" expanded="true" signature="234:304" ph="{...}" />
+                <marker date="1661220348290" expanded="true" signature="278:298" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/Factory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding>
+                <marker date="1661201714319" expanded="true" signature="0:122" ph="/* Factory.cs ... */" />
+                <marker date="1661201714319" expanded="true" signature="158:1095" ph="{...}" />
+                <marker date="1661201714319" expanded="true" signature="196:1093" ph="{...}" />
+                <marker date="1661201714319" expanded="true" signature="229:249" ph="{...}" />
+                <marker date="1661201714319" expanded="true" signature="259:473" ph="/// Creates the object of requested type. ... " />
+                <marker date="1661201714319" expanded="true" signature="555:782" ph="/// Creates the object of requested type by typename. ... " />
+                <marker date="1661201714319" expanded="true" signature="849:1032" ph="/// Creates the object of requested type. ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/PopUpFactory.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+              <folding>
+                <marker date="1661201067123" expanded="true" signature="0:56" ph="/* PopUpFactory.cs ... */" />
+                <marker date="1661201067123" expanded="true" signature="64:171" ph="..." />
+                <marker date="1661201067123" expanded="true" signature="196:1425" ph="{...}" />
+                <marker date="1661201067123" expanded="true" signature="247:1423" ph="{...}" />
+                <marker date="1661201067123" expanded="true" signature="324:470" ph="/// PopUpFactory .ctor ... " />
+                <marker date="1661201067123" expanded="true" signature="535:589" ph="{...}" />
+                <marker date="1661201067123" expanded="true" signature="660:726" ph="{...}" />
+                <marker date="1661201067123" expanded="true" signature="810:1016" ph="{...}" />
+                <marker date="1661201067123" expanded="true" signature="1098:1272" ph="{...}" />
+                <marker date="1661201067123" expanded="true" signature="1152:1236" ph="{...}" />
+                <marker date="1661201067123" expanded="true" signature="1324:1417" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/Core/AssetManagement/AssetManager.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <marker date="1661201091050" expanded="true" signature="0:56" ph="/* AssetManager.cs ... */" />
+                <marker date="1661201091050" expanded="true" signature="64:92" ph="..." />
+                <marker date="1661201091050" expanded="true" signature="124:474" ph="{...}" />
+                <marker date="1661201091050" expanded="true" signature="167:472" ph="{...}" />
+                <marker date="1661201091050" expanded="true" signature="182:403" ph="/// Creates a popUp of the requested type ... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/AbilityConfig.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="36" column="82" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="82" />
+              <folding>
+                <marker date="1661219881582" expanded="true" signature="0:57" ph="/* AbilityConfig.cs ... */" />
+                <marker date="1661219881582" expanded="true" signature="65:204" ph="..." />
+                <marker date="1661219881582" expanded="true" signature="227:1688" ph="{...}" />
+                <marker date="1661219881582" expanded="true" signature="337:1686" ph="{...}" />
+                <marker date="1661219881582" expanded="true" signature="491:568" ph="{...}" />
+                <marker date="1661219881582" expanded="true" signature="640:689" ph="{...}" />
+                <marker date="1661219881582" expanded="true" signature="769:1680" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Observable</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuSceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Crypto/Impl/DESEncryptionProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Crypto/Impl/RAWEncryptionProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Domain/IDomainObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Crypto/IEncryptionProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/Impl/Item.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Startup/StartUpView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Startup/StartUpSceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Loading/LoadingModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Loading/LoadingView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Loading/LoadingSceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/IItemConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Singleton/Singleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterSceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Abilities/AbilityView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Unity/UnityBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/Factory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/AssetManagement/AssetManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Application/IApplicationFacade.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Observer/IObserver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Observer/Impl/Observable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/ApplicationConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UISceneController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/ApplicationController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/ApplicationModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Unity/UnitySingleton.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Items/ItemView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/AbilityConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Configuration/PrefabConfiguration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/SceneTransition/ILoadingController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/LocalisationConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/SceneTransition/SceneNameAttribute.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIView.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/UIPopUpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Extensions/TypeExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/PopUpFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Extensions/StreamExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithIconAndButtonAndModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Player/Impl/Player.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BA0EBC64-528E-4BFA-B626-85492EBBBF40/42/3dcc2ba6/UIRAtlasAllocator.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Player/IPlayer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/IAbility.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Errors/ErrorPopUpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Serialization/ISerializationPolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/Impl/Ability.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Serialization/Impl/XmlSerializationPolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Serialization/Impl/JSONNetSerializationPolicy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Configs/Config.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Info/InfoPopUpController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Observer/IObservable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/Core/Domain/Impl/DomainObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/PrefabFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/IItem.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Source/Core/SceneTransition/ILoadingController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Core/IApplicationFacade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Application/Enum1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/UIManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/Animation/AnimatorExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/UIView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Core/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Singleton/Struct1.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Singleton/Singleton.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Core/Command.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Core/Time/Impl/Timer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Configs/Config.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/PrefabFactory.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Splash/SplashView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Splash/SplashSceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Loading/LoadingModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Loading/LoadingView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Loading/LoadingSceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/UIController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterSceneView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Startup/StartUpView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Startup/StartUpSceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/ApplicationModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Configuration/PrefabConfiguration.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Info/InfoPopUpController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuSceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Observer/IObservable.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/IItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/IAbility.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Errors/ErrorPopUpController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/IconItems/ItemView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithIconAndButtonAndModel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/Application/IApplicationFacade.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/ApplicationController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/Impl/Item.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/Impl/Ability.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterSceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Abilities/AbilityView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Items/ItemView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Configs/AbilityConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Configs/LocalisationConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/RPG/Configs/IItemConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/UISceneController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/UIPopUpController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Source/Core/AssetManagement/AssetManager.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="InvalidFacetManager">
+    <ignored-facets>
+      <facet id="riderModule/invalid/Default Android Facet" />
+    </ignored-facets>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="829" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
+      <pane id="UnityExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Source" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Assets" type="48f920db:UnityExplorerNode$AssetsRoot" />
+              <item name="Source" type="1045f7f1:UnityExplorerNode" />
+              <item name="Core" type="1045f7f1:UnityExplorerNode" />
+            </path>
+            <path>
+              <item name="Project" type="e068e287:UnityExplorerRootNode" />
+              <item name="Packages" type="4e2708dd:PackagesRoot" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-hidden-items" value="false" />
+      </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" pid="11506">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" value="11506" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="92b0a0be-7cd2-4155-a800-16141d4fe8b1" name="Default Changelist" comment="" />
+      <created>1660991284188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1660991284188</updated>
+      <workItem from="1660991288417" duration="25462000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="25462000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="25" width="1440" height="824" extended-state="6" />
+    <layout>
+      <window_info id="Capture Tool" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Captures" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" visible="true" weight="0.24964234" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="5" />
+      <window_info anchor="bottom" id="Android Profiler" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Docker" order="1" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="NuGet" order="3" />
+      <window_info anchor="bottom" id="Logcat" order="4" />
+      <window_info anchor="bottom" id="Unit Tests" order="5" />
+      <window_info anchor="bottom" id="Database Changes" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Unity" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Message" order="10" />
+      <window_info anchor="bottom" id="Find" order="11" visible="true" weight="0.3292011" />
+      <window_info anchor="bottom" id="Run" order="12" />
+      <window_info anchor="bottom" id="Debug" order="13" weight="0.39944905" />
+      <window_info anchor="bottom" id="Cvs" order="14" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="15" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="16" />
+      <window_info anchor="right" id="Errors In Solution" order="0" />
+      <window_info anchor="right" id="Device File Explorer" order="1" side_tool="true" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout>
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Core/Crypto/Impl/DESEncryptionProvider.cs</url>
+          <line>31</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Core/Crypto/Impl/DESEncryptionProvider.cs" initialLine="31">
+            <startOffsets>
+              <option value="967" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1097" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Source/Core/Serialization/Impl/JSONNetSerializationPolicy.cs</url>
+          <line>34</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Source/Core/Serialization/Impl/JSONNetSerializationPolicy.cs" initialLine="34">
+            <startOffsets>
+              <option value="1015" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1078" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BA0EBC64-528E-4BFA-B626-85492EBBBF40/42/3dcc2ba6/UIRAtlasAllocator.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="85" column="6" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="56" column="64" selection-start-line="56" selection-start-column="64" selection-end-line="56" selection-end-column="64" />
+          <folding>
+            <marker date="1661205281433" expanded="true" signature="0:52" ph="/* MenuView.cs ... */" />
+            <marker date="1661205281433" expanded="true" signature="60:136" ph="..." />
+            <marker date="1661205281433" expanded="true" signature="159:2392" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="225:2390" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="871:891" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="961:1524" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="1569:1869" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="1920:2031" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="1964:2021" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="2087:2204" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="2134:2194" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="2265:2384" ph="{...}" />
+            <marker date="1661205281433" expanded="true" signature="2313:2374" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <marker date="1661205825353" expanded="true" signature="0:53" ph="/* MenuModel.cs ... */" />
+            <marker date="1661205825353" expanded="true" signature="61:94" ph="..." />
+            <marker date="1661205825353" expanded="true" signature="117:654" ph="{...}" />
+            <marker date="1661205825353" expanded="true" signature="168:652" ph="{...}" />
+            <marker date="1661205825353" expanded="true" signature="437:646" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/ApplicationModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="33" column="52" selection-start-line="33" selection-start-column="52" selection-end-line="33" selection-end-column="52" />
+          <folding>
+            <marker date="1661211447306" expanded="true" signature="0:60" ph="/* ApplicationModel.cs ... */" />
+            <marker date="1661211447306" expanded="true" signature="68:195" ph="..." />
+            <marker date="1661211447306" expanded="true" signature="210:1124" ph="{...}" />
+            <marker date="1661211447306" expanded="true" signature="333:1122" ph="{...}" />
+            <marker date="1661211447306" expanded="true" signature="650:670" ph="{...}" />
+            <marker date="1661211447306" expanded="true" signature="727:1023" ph="{...}" />
+            <marker date="1661211447306" expanded="true" signature="1068:1116" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/PrefabFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
+          <folding>
+            <marker date="1661202658264" expanded="true" signature="0:54" ph="/* GameConfig.cs ... */" />
+            <marker date="1661202658264" expanded="true" signature="62:113" ph="..." />
+            <marker date="1661202658264" expanded="true" signature="131:455" ph="{...}" />
+            <marker date="1661202658264" expanded="true" signature="170:453" ph="{...}" />
+            <marker date="1661202658264" expanded="true" signature="357:450" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Configuration/PrefabConfiguration.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding>
+            <marker date="1661211802625" expanded="true" signature="0:63" ph="/* PrefabConfiguration.cs ... */" />
+            <marker date="1661211802625" expanded="true" signature="71:147" ph="..." />
+            <marker date="1661211802625" expanded="true" signature="176:433" ph="{...}" />
+            <marker date="1661211802625" expanded="true" signature="345:431" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/Image.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <marker date="1661201838686" expanded="true" signature="0:50" ph="/* UIView.cs ... */" />
+            <marker date="1661201838686" expanded="true" signature="58:109" ph="..." />
+            <marker date="1661201838686" expanded="true" signature="128:498" ph="{...}" />
+            <marker date="1661201838686" expanded="true" signature="173:496" ph="{...}" />
+            <marker date="1661201838686" expanded="true" signature="265:285" ph="{...}" />
+            <marker date="1661201838686" expanded="true" signature="350:490" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Info/InfoPopUpController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-96">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+          <folding>
+            <marker date="1661215149508" expanded="true" signature="0:63" ph="/* InfoPopUpController.cs ... */" />
+            <marker date="1661215149508" expanded="true" signature="71:202" ph="..." />
+            <marker date="1661215149508" expanded="true" signature="232:1418" ph="{...}" />
+            <marker date="1661215149508" expanded="true" signature="300:1416" ph="{...}" />
+            <marker date="1661215149508" expanded="true" signature="693:1247" ph="{...}" />
+            <marker date="1661215149508" expanded="true" signature="1292:1410" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Observer/IObservable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+          <folding>
+            <marker date="1661216704911" expanded="true" signature="6:32" ph="..." />
+            <marker date="1661216704911" expanded="true" signature="57:508" ph="{...}" />
+            <marker date="1661216704911" expanded="true" signature="108:506" ph="{...}" />
+            <marker date="1661216704911" expanded="true" signature="288:414" ph="/// Method triggers notification to all Observers, about the change of Observable ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Observer/IObserver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+          <folding>
+            <marker date="1661182529984" expanded="true" signature="0:53" ph="/* IObserver.cs ... */" />
+            <marker date="1661182529984" expanded="true" signature="78:381" ph="{...}" />
+            <marker date="1661182529984" expanded="true" signature="85:189" ph="/// Has to be implemented to subscribe to changes on the Observable ... " />
+            <marker date="1661182529984" expanded="true" signature="220:379" ph="{...}" />
+            <marker date="1661182529984" expanded="true" signature="235:341" ph="/// Method, which is called by Observable, when it is changed ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/IItem.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1661216733303" expanded="true" signature="0:49" ph="/* IItem.cs ... */" />
+            <marker date="1661216733303" expanded="true" signature="57:64" ph="..." />
+            <marker date="1661216733303" expanded="true" signature="113:323" ph="{...}" />
+            <marker date="1661216733303" expanded="true" signature="156:321" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/IAbility.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1661216760516" expanded="true" signature="0:52" ph="/* IAbility.cs ... */" />
+            <marker date="1661216760516" expanded="true" signature="60:67" ph="..." />
+            <marker date="1661216760516" expanded="true" signature="120:290" ph="{...}" />
+            <marker date="1661216760516" expanded="true" signature="166:288" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Menu/MenuSceneController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="80" column="9" selection-start-line="76" selection-start-column="8" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <marker date="1661215689684" expanded="true" signature="0:63" ph="/* MenuSceneController.cs ... */" />
+            <marker date="1661215689684" expanded="true" signature="71:211" ph="..." />
+            <marker date="1661215689684" expanded="true" signature="234:2088" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="326:2086" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="582:682" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="723:743" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="786:1036" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="1106:1303" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="1348:1557" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="1593:1650" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="1689:1746" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="1794:1884" ph="{...}" />
+            <marker date="1661215689684" expanded="true" signature="1930:2080" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Observer/Impl/Observable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+          <folding>
+            <marker date="1661182757985" expanded="true" signature="0:54" ph="/* Observable.cs ... */" />
+            <marker date="1661182757985" expanded="true" signature="62:127" ph="..." />
+            <marker date="1661182757985" expanded="true" signature="157:1580" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="215:1578" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="252:349" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="278:339" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="466:564" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="617:754" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="674:744" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="810:949" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="866:939" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="991:1043" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="1086:1154" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="1188:1237" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="1267:1572" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="1302:1562" ph="{...}" />
+            <marker date="1661182757985" expanded="true" signature="1412:1513" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/PopUps/Errors/ErrorPopUpController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1661217006575" expanded="true" signature="0:64" ph="/* ErrorPopUpController.cs ... */" />
+            <marker date="1661217006575" expanded="true" signature="72:203" ph="..." />
+            <marker date="1661217006575" expanded="true" signature="235:1227" ph="{...}" />
+            <marker date="1661217006575" expanded="true" signature="304:1225" ph="{...}" />
+            <marker date="1661217006575" expanded="true" signature="630:1056" ph="{...}" />
+            <marker date="1661217006575" expanded="true" signature="1101:1219" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="22" column="39" lean-forward="true" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <marker date="1661217694461" expanded="true" signature="0:58" ph="/* CharacterModel.cs ... */" />
+            <marker date="1661217694461" expanded="true" signature="66:133" ph="..." />
+            <marker date="1661217694461" expanded="true" signature="223:587" ph="{...}" />
+            <marker date="1661217694461" expanded="true" signature="279:585" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="83">
+          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <marker date="1661201851760" expanded="true" signature="0:59" ph="/* UIViewWithModel.cs ... */" />
+            <marker date="1661201851760" expanded="true" signature="67:107" ph="..." />
+            <marker date="1661201851760" expanded="true" signature="126:1242" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="225:1240" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="259:505" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="285:345" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="361:495" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="574:594" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="639:796" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="681:755" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="806:915" ph="/// Is called only once, when the view is initialized with model ... " />
+            <marker date="1661201851760" expanded="true" signature="959:979" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="989:1077" ph="/// Is called every time, the model changes ... " />
+            <marker date="1661201851760" expanded="true" signature="1125:1145" ph="{...}" />
+            <marker date="1661201851760" expanded="true" signature="1184:1234" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIViewWithIconAndButtonAndModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="27" selection-start-column="27" selection-end-column="27" />
+          <folding>
+            <marker date="1661218152779" expanded="true" signature="0:68" ph="/* ApplicationController.cs ... */" />
+            <marker date="1661218152779" expanded="true" signature="76:150" ph="..." />
+            <marker date="1661218152779" expanded="true" signature="169:810" ph="{...}" />
+            <marker date="1661218152779" expanded="true" signature="260:808" ph="{...}" />
+            <marker date="1661218152779" expanded="true" signature="420:536" ph="{...}" />
+            <marker date="1661218152779" expanded="true" signature="581:702" ph="{...}" />
+            <marker date="1661218152779" expanded="true" signature="740:802" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Application/IApplicationFacade.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <marker date="1661201662118" expanded="true" signature="0:62" ph="/* IApplicationFacade.cs ... */" />
+            <marker date="1661201662118" expanded="true" signature="70:112" ph="..." />
+            <marker date="1661201662118" expanded="true" signature="140:349" ph="{...}" />
+            <marker date="1661201662118" expanded="true" signature="184:347" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/ApplicationController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" column="9" selection-start-line="39" selection-start-column="9" selection-end-line="39" selection-end-column="9" />
+          <folding>
+            <marker date="1661218283222" expanded="true" signature="0:65" ph="/* ApplicationController.cs ... */" />
+            <marker date="1661218283222" expanded="true" signature="73:314" ph="..." />
+            <marker date="1661218283222" expanded="true" signature="329:2341" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="336:465" ph="/// The type represents the main controller of the application. Basically, is an entry-point ... " />
+            <marker date="1661218283222" expanded="true" signature="568:2339" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="706:799" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="732:789" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="841:943" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="867:933" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="982:1077" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="1008:1067" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="1221:1755" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="1322:1400" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="1463:1683" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="1789:1932" ph="{...}" />
+            <marker date="1661218283222" expanded="true" signature="1988:2333" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Items/Impl/Item.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="63" />
+          <folding>
+            <marker date="1661218357644" expanded="true" signature="0:48" ph="/* Item.cs ... */" />
+            <marker date="1661218357644" expanded="true" signature="56:89" ph="..." />
+            <marker date="1661218357644" expanded="true" signature="122:831" ph="{...}" />
+            <marker date="1661218357644" expanded="true" signature="185:829" ph="{...}" />
+            <marker date="1661218357644" expanded="true" signature="509:529" ph="{...}" />
+            <marker date="1661218357644" expanded="true" signature="640:823" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Domain/Abilities/Impl/Ability.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <marker date="1661218378784" expanded="true" signature="0:51" ph="/* Ability.cs ... */" />
+            <marker date="1661218378784" expanded="true" signature="59:92" ph="..." />
+            <marker date="1661218378784" expanded="true" signature="129:736" ph="{...}" />
+            <marker date="1661218378784" expanded="true" signature="200:734" ph="{...}" />
+            <marker date="1661218378784" expanded="true" signature="483:506" ph="{...}" />
+            <marker date="1661218378784" expanded="true" signature="592:728" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Abilities/AbilityView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <marker date="1661219396160" expanded="true" signature="0:55" ph="/* AbilityView.cs ... */" />
+            <marker date="1661219396160" expanded="true" signature="63:176" ph="..." />
+            <marker date="1661219396160" expanded="true" signature="214:789" ph="{...}" />
+            <marker date="1661219396160" expanded="true" signature="302:787" ph="{...}" />
+            <marker date="1661219396160" expanded="true" signature="407:496" ph="{...}" />
+            <marker date="1661219396160" expanded="true" signature="546:627" ph="{...}" />
+            <marker date="1661219396160" expanded="true" signature="661:781" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/Items/ItemView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="254">
+          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+          <folding>
+            <marker date="1661219432674" expanded="true" signature="0:52" ph="/* ItemView.cs ... */" />
+            <marker date="1661219432674" expanded="true" signature="60:169" ph="..." />
+            <marker date="1661219432674" expanded="true" signature="203:769" ph="{...}" />
+            <marker date="1661219432674" expanded="true" signature="285:767" ph="{...}" />
+            <marker date="1661219432674" expanded="true" signature="390:479" ph="{...}" />
+            <marker date="1661219432674" expanded="true" signature="529:610" ph="{...}" />
+            <marker date="1661219432674" expanded="true" signature="644:761" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterView.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="84" column="70" selection-start-line="84" selection-start-column="70" selection-end-line="84" selection-end-column="70" />
+          <folding>
+            <marker date="1661218780646" expanded="true" signature="0:57" ph="/* CharacterView.cs ... */" />
+            <marker date="1661218780646" expanded="true" signature="65:353" ph="..." />
+            <marker date="1661218780646" expanded="true" signature="381:3287" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="457:3285" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="1161:1609" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="1654:2204" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="1780:1865" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="1991:2082" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="2250:2300" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="2338:2621" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="2433:2611" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="2671:2980" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="2773:2970" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="3028:3279" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="3080:3157" ph="{...}" />
+            <marker date="1661218780646" expanded="true" signature="3198:3269" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/DefaultCompany/1_2_RPG/Configs/Abilities.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="874" selection-start-column="836" selection-end-column="874" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Application Support/DefaultCompany/1_2_RPG/Configs/Items.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="955" selection-start-column="917" selection-end-column="955" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/UI/Character/CharacterSceneController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="94" column="30" selection-start-line="94" selection-start-column="30" selection-end-line="94" selection-end-column="30" />
+          <folding>
+            <marker date="1661219081812" expanded="true" signature="0:68" ph="/* CharacterSceneController.cs ... */" />
+            <marker date="1661219081812" expanded="true" signature="76:357" ph="..." />
+            <marker date="1661219081812" expanded="true" signature="385:3279" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="487:3277" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="652:752" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="797:817" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="860:1659" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="1729:1920" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="1992:2197" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="2240:2325" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="2373:2852" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="2553:2842" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="2917:3025" ph="{...}" />
+            <marker date="1661219081812" expanded="true" signature="3117:3271" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/LocalisationConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="65" column="39" selection-start-line="65" selection-start-column="39" selection-end-line="65" selection-end-column="39" />
+          <folding>
+            <marker date="1661219894995" expanded="true" signature="0:125" ph="/* LocalizationConfig.cs ... */" />
+            <marker date="1661219894995" expanded="true" signature="133:205" ph="..." />
+            <marker date="1661219894995" expanded="true" signature="228:1608" ph="{...}" />
+            <marker date="1661219894995" expanded="true" signature="350:1606" ph="{...}" />
+            <marker date="1661219894995" expanded="false" signature="408:464" ph="Loading" />
+            <marker date="1661219894995" expanded="false" signature="466:585" ph="Menu" />
+            <marker date="1661219894995" expanded="true" signature="587:771" ph="Character" />
+            <marker date="1661219894995" expanded="false" signature="773:858" ph="PopUps" />
+            <marker date="1661219894995" expanded="true" signature="889:897" ph="{...}" />
+            <marker date="1661219894995" expanded="true" signature="936:964" ph="{...}" />
+            <marker date="1661219894995" expanded="true" signature="1016:1603" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/AbilityConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="36" column="82" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="82" />
+          <folding>
+            <marker date="1661219881582" expanded="true" signature="0:57" ph="/* AbilityConfig.cs ... */" />
+            <marker date="1661219881582" expanded="true" signature="65:204" ph="..." />
+            <marker date="1661219881582" expanded="true" signature="227:1688" ph="{...}" />
+            <marker date="1661219881582" expanded="true" signature="337:1686" ph="{...}" />
+            <marker date="1661219881582" expanded="true" signature="491:568" ph="{...}" />
+            <marker date="1661219881582" expanded="true" signature="640:689" ph="{...}" />
+            <marker date="1661219881582" expanded="true" signature="769:1680" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Unity/UnitySingleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="23" lean-forward="true" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
+          <folding>
+            <marker date="1661201552933" expanded="true" signature="0:58" ph="/* UnitySingleton.cs ... */" />
+            <marker date="1661201552933" expanded="true" signature="100:670" ph="{...}" />
+            <marker date="1661201552933" expanded="true" signature="192:668" ph="{...}" />
+            <marker date="1661201552933" expanded="true" signature="231:569" ph="{...}" />
+            <marker date="1661201552933" expanded="true" signature="257:559" ph="{...}" />
+            <marker date="1661201552933" expanded="true" signature="309:510" ph="{...}" />
+            <marker date="1661201552933" expanded="true" signature="642:662" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Unity/UnityBehaviour.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <marker date="1661201481797" expanded="true" signature="0:58" ph="/* UnityBehaviour.cs ... */" />
+            <marker date="1661201481797" expanded="true" signature="66:128" ph="..." />
+            <marker date="1661201481797" expanded="true" signature="150:2641" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="202:2639" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="243:342" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="269:332" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="547:567" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="577:922" ph="/// Allows to delay invocation of the method. &lt;b&gt;The method will be executed at least once.&lt;/b&gt; ... " />
+            <marker date="1661201481797" expanded="true" signature="994:1128" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1172:1303" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1345:1365" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1407:1427" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1471:1491" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1534:1554" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1602:1622" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1669:1689" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1739:1759" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1789:1868" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1898:1941" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="1975:2020" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="2051:2465" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="2112:2455" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="2163:2393" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="2287:2375" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="2501:2550" ph="{...}" />
+            <marker date="1661201481797" expanded="true" signature="2585:2633" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UIManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="37" column="43" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
+          <folding>
+            <marker date="1661201669018" expanded="true" signature="0:53" ph="/* UIManager.cs ... */" />
+            <marker date="1661201669018" expanded="true" signature="61:351" ph="..." />
+            <marker date="1661201669018" expanded="true" signature="370:5861" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="436:5859" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="599:711" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="625:701" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="1052:1367" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="1412:1707" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="1792:1864" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="1929:2335" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="1990:2064" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2113:2325" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2240:2311" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2345:2408" ph="/// Poll arguments ... " />
+            <marker date="1661201669018" expanded="true" signature="2442:2658" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2482:2622" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2532:2608" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2668:2748" ph="/// Poll arguments used by Commands ... " />
+            <marker date="1661201669018" expanded="true" signature="2803:3084" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2850:3048" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="2946:3034" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="3094:3174" ph="/// Push arguments used by Commands ... " />
+            <marker date="1661201669018" expanded="true" signature="3248:3473" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="3311:3463" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="3361:3449" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="3540:3687" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="3600:3677" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="3758:3812" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="3822:4065" ph="/// Load scene, stored in the UISceneController's SneneName attribute. ... " />
+            <marker date="1661201669018" expanded="true" signature="4140:4217" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="4291:4958" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="4442:4504" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="4567:4667" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="4684:4948" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="5096:5196" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="5273:5707" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="5312:5450" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="5362:5436" ph="{...}" />
+            <marker date="1661201669018" expanded="true" signature="5741:5853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/SceneTransition/ILoadingController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding>
+            <marker date="1661201573712" expanded="true" signature="0:62" ph="/* ILoadingController.cs ... */" />
+            <marker date="1661201573712" expanded="true" signature="94:177" ph="{...}" />
+            <marker date="1661201573712" expanded="true" signature="163:175" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/SceneTransition/SceneNameAttribute.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
+          <folding>
+            <marker date="1661182272706" expanded="true" signature="0:62" ph="/* SceneNameAttribute.cs ... */" />
+            <marker date="1661182272706" expanded="true" signature="109:449" ph="{...}" />
+            <marker date="1661182272706" expanded="true" signature="116:246" ph="/// An attribute, that stores the name of the scene. Should be applied to UISceneControllers. ... " />
+            <marker date="1661182272706" expanded="true" signature="303:447" ph="{...}" />
+            <marker date="1661182272706" expanded="true" signature="396:441" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Singleton/Singleton.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1661202054311" expanded="true" signature="0:53" ph="/* Singleton.cs ... */" />
+            <marker date="1661202054311" expanded="true" signature="79:409" ph="{...}" />
+            <marker date="1661202054311" expanded="true" signature="151:407" ph="{...}" />
+            <marker date="1661202054311" expanded="true" signature="190:313" ph="{...}" />
+            <marker date="1661202054311" expanded="true" signature="216:303" ph="{...}" />
+            <marker date="1661202054311" expanded="true" signature="381:401" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/RPG/Configs/IItemConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="39" column="100" selection-start-line="39" selection-start-column="100" selection-end-line="39" selection-end-column="100" />
+          <folding>
+            <marker date="1661219997350" expanded="true" signature="6:165" ph="..." />
+            <marker date="1661219997350" expanded="true" signature="188:1662" ph="{...}" />
+            <marker date="1661219997350" expanded="true" signature="292:1660" ph="{...}" />
+            <marker date="1661219997350" expanded="true" signature="440:510" ph="{...}" />
+            <marker date="1661219997350" expanded="true" signature="590:639" ph="{...}" />
+            <marker date="1661219997350" expanded="true" signature="716:1654" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Core/Time/ITimer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" lean-forward="true" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Core/Time/Impl/Timer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Core/Command.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Core/AsyncOperation.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Core/OperationResultListener.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="26" lean-forward="true" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Core/StateMachine/IStateMachine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Core/StateMachine/StateMachine.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-675">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/Extensions/StreamExtensions.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding>
+            <marker date="1661181475752" expanded="true" signature="0:60" ph="/* StreamExtensions.cs ... */" />
+            <marker date="1661181475752" expanded="true" signature="68:92" ph="..." />
+            <marker date="1661181475752" expanded="true" signature="119:787" ph="{...}" />
+            <marker date="1661181475752" expanded="true" signature="162:785" ph="{...}" />
+            <marker date="1661181475752" expanded="true" signature="177:462" ph="/// Convert a String into a Stream. Don't forget to Dispose() once not needed. ... " />
+            <marker date="1661181475752" expanded="true" signature="546:779" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/UISceneController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <marker date="1661220348290" expanded="true" signature="0:61" ph="/* UISceneController.cs ... */" />
+            <marker date="1661220348290" expanded="true" signature="80:306" ph="{...}" />
+            <marker date="1661220348290" expanded="true" signature="87:182" ph="/// Type, that represents the main controller on the scene ... " />
+            <marker date="1661220348290" expanded="true" signature="234:304" ph="{...}" />
+            <marker date="1661220348290" expanded="true" signature="278:298" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/Factory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+          <folding>
+            <marker date="1661201714319" expanded="true" signature="0:122" ph="/* Factory.cs ... */" />
+            <marker date="1661201714319" expanded="true" signature="158:1095" ph="{...}" />
+            <marker date="1661201714319" expanded="true" signature="196:1093" ph="{...}" />
+            <marker date="1661201714319" expanded="true" signature="229:249" ph="{...}" />
+            <marker date="1661201714319" expanded="true" signature="259:473" ph="/// Creates the object of requested type. ... " />
+            <marker date="1661201714319" expanded="true" signature="555:782" ph="/// Creates the object of requested type by typename. ... " />
+            <marker date="1661201714319" expanded="true" signature="849:1032" ph="/// Creates the object of requested type. ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/PopUpFactory.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <marker date="1661201067123" expanded="true" signature="0:56" ph="/* PopUpFactory.cs ... */" />
+            <marker date="1661201067123" expanded="true" signature="64:171" ph="..." />
+            <marker date="1661201067123" expanded="true" signature="196:1425" ph="{...}" />
+            <marker date="1661201067123" expanded="true" signature="247:1423" ph="{...}" />
+            <marker date="1661201067123" expanded="true" signature="324:470" ph="/// PopUpFactory .ctor ... " />
+            <marker date="1661201067123" expanded="true" signature="535:589" ph="{...}" />
+            <marker date="1661201067123" expanded="true" signature="660:726" ph="{...}" />
+            <marker date="1661201067123" expanded="true" signature="810:1016" ph="{...}" />
+            <marker date="1661201067123" expanded="true" signature="1098:1272" ph="{...}" />
+            <marker date="1661201067123" expanded="true" signature="1152:1236" ph="{...}" />
+            <marker date="1661201067123" expanded="true" signature="1324:1417" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/UI/PopUp/UIPopUpController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <marker date="1661220396534" expanded="true" signature="0:61" ph="/* UIPopUpController.cs ... */" />
+            <marker date="1661220396534" expanded="true" signature="101:551" ph="{...}" />
+            <marker date="1661220396534" expanded="true" signature="155:549" ph="{...}" />
+            <marker date="1661220396534" expanded="true" signature="254:274" ph="{...}" />
+            <marker date="1661220396534" expanded="true" signature="303:436" ph="{...}" />
+            <marker date="1661220396534" expanded="true" signature="368:426" ph="{...}" />
+            <marker date="1661220396534" expanded="true" signature="478:543" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Source/Core/AssetManagement/AssetManager.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <marker date="1661201091050" expanded="true" signature="0:56" ph="/* AssetManager.cs ... */" />
+            <marker date="1661201091050" expanded="true" signature="64:92" ph="..." />
+            <marker date="1661201091050" expanded="true" signature="124:474" ph="{...}" />
+            <marker date="1661201091050" expanded="true" signature="167:472" ph="{...}" />
+            <marker date="1661201091050" expanded="true" signature="182:403" ph="/// Creates a popUp of the requested type ... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
